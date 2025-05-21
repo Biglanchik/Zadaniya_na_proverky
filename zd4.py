@@ -9,5 +9,5 @@ while True:
         print("Данные не являются числом.")
         continue
 
-    digits = len(num.lstrip("-"))  # Убираем минус, если есть, и считаем длину
+    digits = len(num.lstrip("-"))
     print(f"В этом числе {digits} цифры.")
